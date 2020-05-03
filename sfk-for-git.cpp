@@ -21,7 +21,7 @@ int main()
 
     if ((choice != 1) && (choice != 2) && (choice != 3)) //
     {
-        system("title ERROR & cls");
+        system("cls");
         cout << "Error with the choice input: a digit between 1-3 needs to be chosen, otherwise this error appears. Shutting down..." << endl;
         return -1;
     }
@@ -34,7 +34,7 @@ int main()
         wcout << L"Your username is: {" << username << L"}" << endl;
     else
     {
-        system("title ERROR & cls");
+        system("cls");
         cout << "Error with the username unput, probably you don't have one? Shutting down..." << endl;
         return -2;
     }
