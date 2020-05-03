@@ -5,4 +5,4 @@ for C: drive
 - [x] tracks down your current username.
 - [ ] all drives support
 - [ ] username
-- [ ] based code input processing
+- [ ] «based code» input processing
