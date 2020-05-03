@@ -1,6 +1,8 @@
 # sfk-remover
 for C: drive
 
-- [] all drives support
-- [] username
-- [?] based code input processing
+- [x] works on Videos, Documents and Desktop folders.
+- [x] tracks down your current username.
+- [ ] all drives support
+- [ ] username
+- [ ] based code input processing
