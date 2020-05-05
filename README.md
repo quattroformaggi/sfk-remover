@@ -8,6 +8,5 @@
 - [ ] «based code» input processing
 
 **Bugs**:
-* ~~entering a wrong choice number closes the program, not displaying the error message~~ :thinking:
 * entering a wrong username continues playing the code, displaying all files (dir) in the folder where the .exe is situated
 
