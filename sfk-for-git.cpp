@@ -23,6 +23,7 @@ int main()
     {
         system("cls");
         cout << "Error with the choice input: a digit between 1-3 needs to be chosen, otherwise this error appears. Shutting down..." << endl;
+        _getch();
         return -1;
     }
 
@@ -36,6 +37,7 @@ int main()
     {
         system("cls");
         cout << "Error with the username unput, probably you don't have one? Shutting down..." << endl;
+        _getch();
         return -2;
     }
     ///////////////////////////////////////////
@@ -48,11 +50,9 @@ int main()
     case 1: {comstr += "cd /d \"C:\\users\\" + uname + "\\desktop\" & dir & del /p *.sfk & echo. & echo [Enter] to clear the screen and exit"; exec(comstr); break; } //<>
     case 2: {comstr += "cd /d \"C:\\users\\" + uname + "\\downloads\" & dir & del /p *.sfk & echo. & echo [Enter] to clear the screen and exit"; exec(comstr); break; } //<>
     case 3: {comstr += "cd /d \"C:\\users\\" + uname + "\\videos\" & dir & del /p *.sfk & echo. & echo [Enter] to clear the screen and exit"; exec(comstr); break; } //<>
-
-    default: {cout << "you're reading the code which will never be executed ;)" << endl; return 69; }
     }
+    cout << "The End" << endl << "-- @quattroformaggi, 2020" << endl;
     _getch();
     system("cls");
-    cout << "The End" << endl << "-- @quattroformaggi, 2020" << endl;
     return 1;
 }
