@@ -27,7 +27,7 @@ int main()
         return -1;
     }
 
-    ///////////////////////////////////////////based code <>
+    ///////////////////////////////////////////based code
     TCHAR username[UNLEN + 1];
     DWORD size = UNLEN + 1;
 
