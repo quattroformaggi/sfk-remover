@@ -51,7 +51,7 @@ int main()
     case 2: {comstr += "cd /d \"C:\\users\\" + uname + "\\downloads\" & dir & del /p *.sfk & echo."; exec(comstr); break; }
     case 3: {comstr += "cd /d \"C:\\users\\" + uname + "\\videos\" & dir & del /p *.sfk & echo."; exec(comstr); break; }
     }
-    cout << "Executed. Press any key to quit." << endl << "-- @quattroformaggi, 2020" << endl;
+    cout << "Executed. Press any key to quit." << endl;
     _getch();
     system("cls");
     return 1;
