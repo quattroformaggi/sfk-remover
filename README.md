@@ -1,7 +1,7 @@
 # sfk-remover
 ### for C: drive only (temporarily)
 ##### works on Videos, Documents and Desktop folders.
-> .exe --- ATM gives #1 bug
+> .exe --- atm gives #1 bug, maybe later...
 
 - [x] ~~tracks down your current username~~ 1.0
 - [ ] drive letter input support
