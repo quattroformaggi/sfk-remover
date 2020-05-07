@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include <windows.h> //for based code
 #include <lmcons.h>
 #include <conio.h> //_getch()
@@ -15,8 +15,8 @@ int main()
     unsigned short choice;
     string uname;
     string comstr;
-    system("title .sfk Remover @quattroformaggi");
-    cout << "Part 1: Choose one of the basic directories:" << endl << "[1] Desktop" << endl << "[2] Downloads" << endl << "[3] Videos" << ":";
+    system("title .sfk Remover @quattroformaggi & color 0e");
+    cout << "Part 1: Choose one of the basic directories:" << endl << "[1] Desktop" << endl << "[2] Downloads" << endl << "[3] Videos" << " -> ";
     cin >> choice;
 
     if ((choice != 1) && (choice != 2) && (choice != 3)) //
@@ -43,15 +43,15 @@ int main()
     ///////////////////////////////////////////
 
     cout << "Part 2: To confirm the start of the removing process, enter the username above: ";
-    cin >> uname;
+    cin >> uname; //could be implemented better
 
     switch (choice)
     {
-    case 1: {comstr += "cd /d \"C:\\users\\" + uname + "\\desktop\" & dir & del /p *.sfk & echo. & echo [Enter] to clear the screen and exit"; exec(comstr); break; } //<>
-    case 2: {comstr += "cd /d \"C:\\users\\" + uname + "\\downloads\" & dir & del /p *.sfk & echo. & echo [Enter] to clear the screen and exit"; exec(comstr); break; } //<>
-    case 3: {comstr += "cd /d \"C:\\users\\" + uname + "\\videos\" & dir & del /p *.sfk & echo. & echo [Enter] to clear the screen and exit"; exec(comstr); break; } //<>
+    case 1: {comstr += "cd /d \"C:\\users\\" + uname + "\\desktop\" & dir & del /p *.sfk & echo."; exec(comstr); break; }
+    case 2: {comstr += "cd /d \"C:\\users\\" + uname + "\\downloads\" & dir & del /p *.sfk & echo."; exec(comstr); break; }
+    case 3: {comstr += "cd /d \"C:\\users\\" + uname + "\\videos\" & dir & del /p *.sfk & echo."; exec(comstr); break; }
     }
-    cout << "The End" << endl << "-- @quattroformaggi, 2020" << endl;
+    cout << "Executed. Press any key to quit." << endl << "-- @quattroformaggi, 2020" << endl;
     _getch();
     system("cls");
     return 1;
