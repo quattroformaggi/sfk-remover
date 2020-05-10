@@ -1,6 +1,6 @@
 # sfk-remover
 ### Windows, C: drive only
-##### works on Videos, Documents and Desktop folders.
+##### _works on Videos, Documents and Desktop folders._
 > .exe --- atm gives #1 bug
 
 - [x] ~~tracks down your current username~~ 1.0
