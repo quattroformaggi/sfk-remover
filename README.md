@@ -1,5 +1,5 @@
 # sfk-remover
-### for OS Windows, C: drive only
+### Windows, C: drive only
 ##### works on Videos, Documents and Desktop folders.
 > .exe --- atm gives #1 bug
 
