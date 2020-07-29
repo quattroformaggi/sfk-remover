@@ -22,7 +22,7 @@ int main()
     if ((choice != 1) && (choice != 2) && (choice != 3)) //
     {
         system("cls");
-        cout << "Error with the choice input: a digit between 1-3 needs to be chosen, otherwise this error appears. Shutting down..." << endl;
+        cerr << "Error with the choice input: a digit between 1-3 needs to be chosen, otherwise this error appears. Shutting down..." << endl;
         _getch();
         return -1;
     }
@@ -36,7 +36,7 @@ int main()
     else
     {
         system("cls");
-        cout << "Error with the username unput, probably you don't have one? Shutting down..." << endl;
+        cerr << "Error with the username unput, probably you don't have one? Shutting down..." << endl;
         _getch();
         return -2;
     }
